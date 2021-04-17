@@ -1,0 +1,30 @@
+.nav {
+  grid-area: n;
+  background-color: aquamarine;
+  padding: 20px;
+}
+
+.item a {
+  color: rgb(166, 172, 155);
+  text-decoration: none;
+}
+
+.item a.active {
+  color: rgb(73, 105, 151);
+}
+
+.friends {
+  padding-left: 5px;
+  font-size: small;
+}
+
+.imgFriend img {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+.imgFriend {
+  padding-right: 5px;
+  margin-top: 15px;
+  float: left;
+}
